@@ -1,4 +1,4 @@
-# crave_deviate
+# Crave Deviate
 An web app that suggests a healthy food option to satiate a craving
 
 
