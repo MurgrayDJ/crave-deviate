@@ -7,6 +7,7 @@
 const choiceBtns = document.getElementsByName('choice')
 choiceBtns.forEach(choice => choice.addEventListener('click', e => {
   document.location.href = './choice.html'
+  document.body.innerHTML += `<h1>${e.target.id}<h1>`
 }))
 
 // const http = require('https');
