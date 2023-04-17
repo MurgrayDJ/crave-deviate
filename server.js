@@ -1,3 +1,13 @@
+let params = new URLSearchParams(location.search);
+let choice = params.get('choice');
+h1(choice)
+
+function h1(text) {
+  var h1 = document.createElement('h1');
+  h1.appendChild(document.createTextNode(text));
+  document.body.appendChild(h1);
+}
+
 // $(document).ready(function() {
 //     $("h1").click(function() {
 //        alert("Hello, world!");
