@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,185,253,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,185,253,1) 100%);
 }
 
 form{
@@ -19,8 +19,8 @@ form{
 }
 
 input[type='submit'] {
-    height: 40%;
-    width: 30%;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background-color: aliceblue;
 }
